@@ -1,0 +1,12 @@
+numpy
+pandas==1.5.3
+scikit-learn
+nltk
+spacy
+gensim
+matplotlib
+seaborn
+wordcloud
+beautifulsoup4
+mlflow
+jupyter  # opcional
