@@ -6,25 +6,19 @@ Este proyecto está enfocado en la clasificación automática de documentos util
 ## Estructura del Proyecto 🗂️
 
 Proyecto_Clasificacion_Documentos/
-│
-├── data/                     # Carpeta para almacenar los conjuntos de datos
-│   ├── raw/                  # Datos brutos, sin procesar
-│   └── processed/            # Datos preprocesados listos para el modelado
-│
-├── notebooks/                # Jupyter notebooks para exploración y análisis
-│   ├── EDA.ipynb             # Análisis Exploratorio de Datos (Exploratory Data Analysis)
-│   └── main_script.ipynb     # Notebook principal para el entrenamiento y modelado
-│
-├── src/                      # Código fuente del proyecto
-│   ├── preprocessing.py      # Script para preprocesar los datos
-│   ├── train_model.py        # Script para entrenar y evaluar el modelo
-│   └── utils.py              # Script con funciones de utilidad
-│
-├── models/                   # Modelos entrenados
-│
-├── mlruns/                   # Directorio para los registros de MLflow
-│
-└── README.md                 # Documentación y guíadel proyecto
+- data/                     # Carpeta para almacenar los conjuntos de datos
+    - raw/                   # Datos brutos, sin procesar
+    - processed/             # Datos preprocesados listos para el modelado
+- notebooks/                # Jupyter notebooks para exploración y análisis
+    - EDA.ipynb             # Análisis Exploratorio de Datos (Exploratory Data Analysis)
+    - main_script.ipynb     # Notebook principal para el entrenamiento y modelado
+- src/                      # Código fuente del proyecto
+    - preprocessing.py      # Script para preprocesar los datos
+    - train_model.py        # Script para entrenar y evaluar el modelo
+    - utils.py              # Script con funciones de utilidad
+- models/                   # Modelos entrenados
+- mlruns/                   # Directorio para los registros de MLflow
+- README.md                 # Documentación y guíadel proyecto
 
 
 ## Instalación 👩🏼‍💻
